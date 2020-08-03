@@ -16,7 +16,7 @@
     "typescript": "3.7.5"
   },
   "scripts": {
-    "startDev": "react-scripts start",
+    "startLocalDev": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test"
   },
