@@ -38,3 +38,12 @@
   }
 }
 
+[data-metaphor="link"] {
+    color: darkorchid;
+}
+
+[data-metaphor="link"]:hover {
+    cursor: pointer;
+    color: darkorchid;
+}
+
