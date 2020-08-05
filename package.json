@@ -20,7 +20,8 @@
   },
   "scripts": {
     "startLocalDev": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && mv build web",
+    "buildGHP": "PUBLIC_URL=/github react-scripts build && mv build docs",
     "test": "react-scripts test"
   },
   "eslintConfig": {
