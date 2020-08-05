@@ -23,7 +23,7 @@
   },
   "scripts": {
     "startLocalDev": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "PUBLIC_URL=/ react-scripts build",
     "predeploy": "react-scripts build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test"
