@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/rocket-sled/static/css/main.b5ce677f.chunk.css",
-    "main.js": "/rocket-sled/static/js/main.1b951986.chunk.js",
-    "main.js.map": "/rocket-sled/static/js/main.1b951986.chunk.js.map",
-    "runtime-main.js": "/rocket-sled/static/js/runtime-main.509ba148.js",
-    "runtime-main.js.map": "/rocket-sled/static/js/runtime-main.509ba148.js.map",
-    "static/css/2.af3c1da9.chunk.css": "/rocket-sled/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.038faf68.chunk.js": "/rocket-sled/static/js/2.038faf68.chunk.js",
-    "static/js/2.038faf68.chunk.js.map": "/rocket-sled/static/js/2.038faf68.chunk.js.map",
-    "index.html": "/rocket-sled/index.html",
-    "precache-manifest.823aced8a3f0ecb2658f152738fd5ccf.js": "/rocket-sled/precache-manifest.823aced8a3f0ecb2658f152738fd5ccf.js",
-    "service-worker.js": "/rocket-sled/service-worker.js",
-    "static/css/2.af3c1da9.chunk.css.map": "/rocket-sled/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.b5ce677f.chunk.css.map": "/rocket-sled/static/css/main.b5ce677f.chunk.css.map",
-    "static/js/2.038faf68.chunk.js.LICENSE.txt": "/rocket-sled/static/js/2.038faf68.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/rocket-sled/static/media/logo.5d5d9eef.svg"
+    "main.css": "/rocket-booster/static/css/main.b5ce677f.chunk.css",
+    "main.js": "/rocket-booster/static/js/main.c1ff99c0.chunk.js",
+    "main.js.map": "/rocket-booster/static/js/main.c1ff99c0.chunk.js.map",
+    "runtime-main.js": "/rocket-booster/static/js/runtime-main.05cf8cfa.js",
+    "runtime-main.js.map": "/rocket-booster/static/js/runtime-main.05cf8cfa.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/rocket-booster/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.038faf68.chunk.js": "/rocket-booster/static/js/2.038faf68.chunk.js",
+    "static/js/2.038faf68.chunk.js.map": "/rocket-booster/static/js/2.038faf68.chunk.js.map",
+    "index.html": "/rocket-booster/index.html",
+    "precache-manifest.58fe8a1e8fdff036730741f7d5777088.js": "/rocket-booster/precache-manifest.58fe8a1e8fdff036730741f7d5777088.js",
+    "service-worker.js": "/rocket-booster/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/rocket-booster/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.b5ce677f.chunk.css.map": "/rocket-booster/static/css/main.b5ce677f.chunk.css.map",
+    "static/js/2.038faf68.chunk.js.LICENSE.txt": "/rocket-booster/static/js/2.038faf68.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/rocket-booster/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.509ba148.js",
+    "static/js/runtime-main.05cf8cfa.js",
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.038faf68.chunk.js",
     "static/css/main.b5ce677f.chunk.css",
-    "static/js/main.1b951986.chunk.js"
+    "static/js/main.c1ff99c0.chunk.js"
   ]
 }
