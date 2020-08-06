@@ -4,11 +4,12 @@
   "private": true,
   "homepage": "http://turing-mine.github.io/rocket-booster",
   "dependencies": {
-    "bootstrap": "4.5.0",
     "@types/jest": "24.9.1",
     "@types/node": "12.12.53",
     "@types/react": "16.9.44",
     "@types/react-dom": "16.9.8",
+    "diffNG": "turing-mine/diffNG#master",
+    "bootstrap": "4.5.0",
     "node-sass": "4.14.1",
     "react": "16.13.1",
     "react-bootstrap": "1.3.0",
