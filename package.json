@@ -24,11 +24,13 @@
     "@testing-library/user-event": "7.2.1"
   },
   "scripts": {
+    "prestart": "PUBLIC_URL=/ react-scripts build",
+    "start": "ls -l",
     "startLocalDev": "PUBLIC_URL=/ react-scripts start",
+    "test": "react-scripts test",
     "build": "PUBLIC_URL=/ react-scripts build",
     "predeploy": "react-scripts build",
-    "deploy": "gh-pages -d build",
-    "test": "react-scripts test"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
