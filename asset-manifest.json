@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/rocket-booster/static/css/main.b5ce677f.chunk.css",
-    "main.js": "/rocket-booster/static/js/main.c1ff99c0.chunk.js",
-    "main.js.map": "/rocket-booster/static/js/main.c1ff99c0.chunk.js.map",
+    "main.js": "/rocket-booster/static/js/main.4d7593ba.chunk.js",
+    "main.js.map": "/rocket-booster/static/js/main.4d7593ba.chunk.js.map",
     "runtime-main.js": "/rocket-booster/static/js/runtime-main.05cf8cfa.js",
     "runtime-main.js.map": "/rocket-booster/static/js/runtime-main.05cf8cfa.js.map",
     "static/css/2.af3c1da9.chunk.css": "/rocket-booster/static/css/2.af3c1da9.chunk.css",
     "static/js/2.038faf68.chunk.js": "/rocket-booster/static/js/2.038faf68.chunk.js",
     "static/js/2.038faf68.chunk.js.map": "/rocket-booster/static/js/2.038faf68.chunk.js.map",
     "index.html": "/rocket-booster/index.html",
-    "precache-manifest.4ec87518911886873ce9f274afc8c19c.js": "/rocket-booster/precache-manifest.4ec87518911886873ce9f274afc8c19c.js",
+    "precache-manifest.841793a99475b362eecce4eeacc2beaf.js": "/rocket-booster/precache-manifest.841793a99475b362eecce4eeacc2beaf.js",
     "service-worker.js": "/rocket-booster/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/rocket-booster/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.b5ce677f.chunk.css.map": "/rocket-booster/static/css/main.b5ce677f.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.038faf68.chunk.js",
     "static/css/main.b5ce677f.chunk.css",
-    "static/js/main.c1ff99c0.chunk.js"
+    "static/js/main.4d7593ba.chunk.js"
   ]
 }
