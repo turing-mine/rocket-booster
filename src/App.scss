@@ -3,6 +3,7 @@
     text-align: center;
     display: flex;
     min-height: 100vh;
+    height: 100%;
     flex-direction: column;
 }
 
@@ -52,11 +53,16 @@
 
  
 [data-metaphor="header"] {
-    background-color: #282c34;
+    background-color: lightgrey;
     flex: 1;
 }
 
+.darkMode [data-metaphor="header"] {
+    background-color: #282c34;
+}
+
 [data-metaphor="tabular"] {
-    
+    max-height: 61.8%;
+    overflow: auto;
 }
 

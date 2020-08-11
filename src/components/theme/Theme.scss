@@ -1,5 +1,11 @@
 
 .Theme {
+    color: black;
+    margin-top: 22px;
+}
+
+.Theme.dark {
     color: white;
+    background-color: #282c34;
 }
 
