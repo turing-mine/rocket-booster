@@ -2,11 +2,13 @@
 import React from 'react'
 import './Header.scss'
 import logo from './logo.svg'
+import Theme from '../theme/Theme'
 
 function Header() {
     return (
         <div className="Header">
             <header className="App-header">
+                <Theme/>
                 <img src={logo} className="App-logo" alt="logo" />
                 <p data-metaphor="link">
                     RocketBooster
