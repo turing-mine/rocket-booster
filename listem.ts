@@ -1,7 +1,7 @@
 
 // Compile: tsc listen.ts  or  tsc listen.ts --skipLibCheck true
 
-const Server = require( 'DiffNG' )
+const Server = require( './server.js' )
 
 interface modPackMeta {
     name: string
