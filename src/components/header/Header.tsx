@@ -7,7 +7,7 @@ import Theme from '../theme/Theme'
 function Header() {
     return (
         <div className="Header">
-            <header className="App-header">
+            <header>
                 <Theme/>
                 <img src={logo} className="App-logo" alt="logo" />
                 <p data-metaphor="link">

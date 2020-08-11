@@ -25,6 +25,9 @@ td, th {
     text-align: left; 
 }
 
+tr:nth-of-type(odd) td{ 
+    border: 1px solid #ccc;
+}
 
 
 /* 

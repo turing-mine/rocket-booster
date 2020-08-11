@@ -1,6 +1,9 @@
 
 .App {
-  text-align: center;
+    text-align: center;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
 .App-logo {
@@ -48,3 +51,12 @@
 }
 
  
+[data-metaphor="header"] {
+    background-color: #282c34;
+    flex: 1;
+}
+
+[data-metaphor="tabular"] {
+    
+}
+

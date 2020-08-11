@@ -21,8 +21,13 @@ function Tabular() {
                     </tr>
                     <tr>
                         <td>AMT (American Tower)</td>
-                        <td>Tick</td>
+                        <td>$47.50</td>
                         <td>$3.825</td>
+                    </tr>
+                    <tr>
+                        <td>APPL (APPL)</td>
+                        <td>$450.91</td>
+                        <td>$3.040</td>
                     </tr>
                 </tbody>
             </table>

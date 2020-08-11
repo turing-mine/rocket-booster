@@ -7,8 +7,12 @@ import Tabular from './components/tabular/Tabular'
 function App() {
   return (
     <div className="App">
-        <Header/>
-        <Tabular/>
+        <div data-metaphor="header">
+            <Header/>
+        </div>
+        <div data-metaphor="tabular">
+            <Tabular/>
+        </div>
     </div>
   )
 }
