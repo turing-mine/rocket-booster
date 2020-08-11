@@ -36,9 +36,10 @@ class Theme extends React.Component<ThemeProps, ThemeState> {
             <div className={`Theme ${this.state.themeMode}`}>
                 <form name="theme">
                     <input name="mode" type="checkbox" value="dark" onChange={this.changeThemeHandler}/>
-                    &nbsp;&nbsp;Theme Mode: {this.state.themeMode}
+                    &nbsp;&nbsp;Dark Mode<br/>
+                    Current Theme: {this.state.themeMode}
                 </form>
-            </div>
+            </div> 
         )
     }
 }
