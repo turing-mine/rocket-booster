@@ -1,4 +1,4 @@
-var Server = require('DiffNG');
+var Server = require('./server.js');
 var modPack = { name: "" };
 try {
     modPack = require('./package.json');
