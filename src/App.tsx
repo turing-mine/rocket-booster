@@ -17,7 +17,7 @@ class App extends React.Component<{}, AppState> {
 
     render() {
         return (
-            <div className="App">
+            <div className={`App ${this.state.themeMode}`}>
                 <div data-metaphor="dashboard">
                     <Dashboard/>
                 </div>
@@ -25,7 +25,7 @@ class App extends React.Component<{}, AppState> {
                     <Header themeMode={this.state.themeMode}/>
                 </div>
                 <div data-metaphor="tabular">
-                    <Tabular/>
+                    <Tabular themeMode={this.state.themeMode}/>
                 </div>
             </div>
         )

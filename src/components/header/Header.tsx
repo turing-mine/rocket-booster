@@ -20,7 +20,7 @@ class Header extends React.Component<HeaderProps, HeaderState> {
 
     render() {
         return (
-            <div className="Header">
+            <div className={`Header ${this.state.themeMode}`}>
                 <header>
                     <Theme themeMode={this.state.themeMode}/>
                     <img src={logo} className="App-logo" alt="logo" />
