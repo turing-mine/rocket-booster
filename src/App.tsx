@@ -5,7 +5,16 @@ import Header from './components/header/Header'
 import Tabular from './components/tabular/Tabular'
 import Dashboard from './components/dashboard/Dashboard'
 
-class App extends React.Component {
+interface AppState {
+    themeMode: string
+}
+
+class App extends React.Component<{}, AppState> {
+    constructor(props: any) {
+        super(props)
+        this.state = {themeMode:'default'}
+    }
+
     render() {
         return (
             <div className="App">
@@ -13,7 +22,7 @@ class App extends React.Component {
                     <Dashboard/>
                 </div>
                 <div data-metaphor="header">
-                    <Header/>
+                    <Header themeMode={this.state.themeMode}/>
                 </div>
                 <div data-metaphor="tabular">
                     <Tabular/>

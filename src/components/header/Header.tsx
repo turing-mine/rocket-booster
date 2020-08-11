@@ -4,13 +4,25 @@ import './Header.scss'
 import logo from './logo.svg'
 import Theme from '../theme/Theme'
 
-class Header extends React.Component {
+interface HeaderProps {
+    themeMode: string
+}
+
+interface HeaderState {
+    themeMode: string
+}
+
+class Header extends React.Component<HeaderProps, HeaderState> {
+    constructor(props: any) {
+        super(props)
+        this.state = { themeMode: this.props.themeMode }
+    }
+
     render() {
-        const themeMode: string = "default"
         return (
             <div className="Header">
                 <header>
-                    <Theme themeMode={themeMode}/>
+                    <Theme themeMode={this.state.themeMode}/>
                     <img src={logo} className="App-logo" alt="logo" />
                     <p data-metaphor="link">
                         RocketBooster

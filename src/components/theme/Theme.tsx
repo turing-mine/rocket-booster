@@ -2,10 +2,6 @@
 import React from 'react'
 import './Theme.scss'
 
-interface Theme {
-   themeMode: string 
-}
-
 interface ThemeState {
     themeMode: string
 }
@@ -37,7 +33,7 @@ class Theme extends React.Component<ThemeProps, ThemeState> {
                 <form name="theme">
                     <input name="mode" type="checkbox" value="dark" onChange={this.changeThemeHandler}/>
                     &nbsp;&nbsp;Dark Mode<br/>
-                    Current Theme: {this.state.themeMode}
+                    settings: {this.state.themeMode} theme, xx row limit
                 </form>
             </div> 
         )
