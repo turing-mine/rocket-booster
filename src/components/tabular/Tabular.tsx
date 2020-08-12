@@ -3,22 +3,18 @@ import React from 'react'
 import './Tabular.scss'
 
 interface TabularState {
-    themeMode: string
+    maxRows: string
 }
 
-interface TabularProps {
-   themeMode: string
-}
-
-class Tabular extends React.Component<TabularProps, TabularState> {
+class Tabular extends React.Component<{}, TabularState> {
     constructor(props: any) {
         super(props)
-        this.state = { themeMode: this.props.themeMode }
+        this.state = { maxRows: "20" }
     }
     
     render() {
         return (
-            <div className={`Tabular ${this.state.themeMode}`}>
+            <div className="Tabular">
                 <table>
                     <thead>
                         <tr>

@@ -27,7 +27,7 @@ class App extends React.Component<{}, AppState> {
                     <Header themeMode={this.state.themeMode}/>
                 </div>
                 <div data-metaphor="tabular">
-                    <Tabular themeMode={this.state.themeMode}/>
+                    <Tabular/>
                 </div>
             </div>
         )

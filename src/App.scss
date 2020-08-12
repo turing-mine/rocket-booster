@@ -75,5 +75,10 @@
 [data-metaphor="tabular"] {
     max-height: 62vh;
     overflow: auto;
+    background-color: rgb(211,211,211);
+}
+
+.dark [data-metaphor="tabular"] {
+    background-color: rgb(40,44,52);
 }
 
