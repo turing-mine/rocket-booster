@@ -52,7 +52,11 @@
 }
 
 [data-metaphor="dashboard"] {
-    
+    background-color: rgb(211,211,211);
+}
+
+.dark [data-metaphor="dashboard"] {
+    background-color: rgb(40,44,52);
 }
 
 [data-metaphor="header"] {
@@ -60,7 +64,7 @@
     flex: 1;
 }
 
-.darkMode [data-metaphor="header"] {
+.dark [data-metaphor="header"] {
     background-color: rgb(40,44,52);
 }
 
