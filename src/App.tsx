@@ -21,7 +21,6 @@ class App extends React.Component<{}, AppState> {
         super(props)
         this.state = {themeMode:'default'}
     }
-
     render() {
         return (
             <div className={`App ${this.state.themeMode}`}>
