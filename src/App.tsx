@@ -1,6 +1,7 @@
 
 import React from 'react'
 import { observable } from "mobx"
+import { observer } from "mobx-react"
 
 import './App.scss'
 
@@ -11,7 +12,8 @@ interface AppState {
     themeMode: string
 }
 
-class uiSetting {
+class uiSettings {
+    id = Math.random()
     @observable themeMode = "default"
 }
 
