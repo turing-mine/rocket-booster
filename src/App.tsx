@@ -8,25 +8,34 @@ import './App.scss'
 import Header from './components/header/Header'
 import Tabular from './components/tabular/Tabular'
 
-interface AppState {
+interface App {
+    store: any
+}
+
+interface Settings {
     themeMode: string
 }
 
-class uiSettings {
-    id = Math.random()
+class Settings {
     @observable themeMode = "default"
 }
 
-class App extends React.Component<{}, AppState> {
+@observer
+class App extends React.Component {
     constructor(props: any) {
         super(props)
-        this.state = {themeMode:'default'}
     }
+
+    handler() {
+        alert('updated')
+    }
+
     render() {
+        const store = new Settings()
         return (
-            <div className={`App ${this.state.themeMode}`}>
+            <div className={`App ${store.themeMode}`}>
                 <div data-metaphor="header">
-                    <Header themeMode={this.state.themeMode}/>
+                    <Header store={store}/>
                 </div>
                 <div data-metaphor="tabular">
                     <Tabular/>

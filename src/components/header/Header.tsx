@@ -1,29 +1,31 @@
 
 import React from 'react'
+import { observer, inject } from 'mobx-react'
+
 import './Header.scss'
 import logo from './logo.svg'
 import Theme from '../theme/Theme'
 
+interface Header {
+    store: any
+}
+
 interface HeaderProps {
-    themeMode: string
+   store: any
 }
 
-interface HeaderState {
-    themeMode: string
-}
-
-class Header extends React.Component<HeaderProps, HeaderState> {
+@observer
+class Header extends React.Component<HeaderProps,{}> {
     constructor(props: any) {
         super(props)
-        this.state = { themeMode: this.props.themeMode }
     }
 
     render() {
         return (
-            <div className={`Header ${this.state.themeMode}`}>
+            <div className={`Header ${this.props.store.themeMode}`}>
                 <header>
-                    <Theme themeMode={this.state.themeMode}/>
-                    <img src={logo} className="App-logo" alt="logo" />
+                    <Theme themeMode={this.props.store.themeMode}/>
+                    <img src={logo} className="App-logo" alt="logo"/>
                     <p data-metaphor="link">
                         RocketBooster
                     </p>
@@ -39,6 +41,7 @@ class Header extends React.Component<HeaderProps, HeaderState> {
             </div>
         )
     }
+    
 }
 
 export default Header
