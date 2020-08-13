@@ -1,6 +1,6 @@
 
 import React from 'react'
-import { observer, inject } from 'mobx-react'
+import { observer} from 'mobx-react'
 
 import './Header.scss'
 import logo from './logo.svg'
@@ -8,10 +8,12 @@ import Theme from '../theme/Theme'
 
 interface Header {
     store: any
+    action: () => void
 }
 
 interface HeaderProps {
    store: any
+   action: () => void
 }
 
 @observer
@@ -24,7 +26,7 @@ class Header extends React.Component<HeaderProps,{}> {
         return (
             <div className={`Header ${this.props.store.themeMode}`}>
                 <header>
-                    <Theme themeMode={this.props.store.themeMode}/>
+                    <Theme themeMode={this.props.store.themeMode} action={this.props.action}/>
                     <img src={logo} className="App-logo" alt="logo"/>
                     <p data-metaphor="link">
                         RocketBooster

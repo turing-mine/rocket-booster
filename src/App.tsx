@@ -24,10 +24,11 @@ class Settings {
 class App extends React.Component {
     constructor(props: any) {
         super(props)
+        this.eventHandler = this.eventHandler.bind(this)
     }
 
-    handler() {
-        alert('updated')
+    eventHandler() {
+        alert('Event handled from parent (top) component App!')
     }
 
     render() {
@@ -35,7 +36,7 @@ class App extends React.Component {
         return (
             <div className={`App ${store.themeMode}`}>
                 <div data-metaphor="header">
-                    <Header store={store}/>
+                    <Header store={store} action={this.eventHandler}/>
                 </div>
                 <div data-metaphor="tabular">
                     <Tabular/>

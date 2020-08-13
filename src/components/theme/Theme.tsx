@@ -8,6 +8,7 @@ interface ThemeState {
 
 interface ThemeProps {
    themeMode: string
+   action: () => void
 }
 
 class Theme extends React.Component<ThemeProps, ThemeState> {
@@ -31,7 +32,7 @@ class Theme extends React.Component<ThemeProps, ThemeState> {
         return (
             <div className={`Theme ${this.state.themeMode}`}>
                 <form name="theme">
-                    <input name="mode" type="checkbox" value="dark" onChange={this.changeThemeHandler}/>
+                    <input name="mode" type="checkbox" value="dark" onChange={this.changeThemeHandler} onClick={this.props.action}/>
                     &nbsp;&nbsp;Dark Mode<br/>
                     Settings: {this.state.themeMode} theme, xx row limit
                 </form>
